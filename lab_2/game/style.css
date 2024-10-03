@@ -1,0 +1,107 @@
+body{
+	font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+	font-size:32px;
+	margin-bottom:5px;
+}
+
+#gametitle{
+	opacity:0;
+}
+#game{
+	z-index:0;
+	position:relative;
+}
+#gametable {
+	border: 1px solid black;
+	border-spacing: 7px;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	margin-top:15px;
+}
+
+.gamecell {
+	border: 1px solid black;
+	width:100px;
+	text-align:center;
+	font-size:36px;
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+}
+
+#scorediv{
+	padding-top:0px;
+	opacity:0;
+}
+
+#scoretable{
+	width:450px;
+}
+
+.gamerow {
+	height:100px;
+}
+
+#scorerow{
+	height:40px;
+	width:100%;
+}
+
+.scoretitle{
+	width:37.5%;
+	font-size:20px;
+}
+
+.newgamemid {
+	border: 1px solid black;
+	padding:0.5px;
+	text-align:center;
+	width:25%;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+#newgamebtn {
+	font-size:20px;
+	display:inline-block;
+	width:100%;
+	height:100%;
+	text-decoration:none;
+	color:black;
+	padding-top:7%;
+}
+
+#cover {
+	margin-top:15px;
+	border: 1px solid DeepSkyBlue;
+	width:446.67px;
+	height:433.33px;
+	background-color: DeepSkyBlue;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	z-index:999;
+	top:95;
+	left: 0;
+	right: 0;
+	position:absolute;
+}
+
+#covertext {
+	font-size:114px;
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	margin-top:149px;
+	margin-bottom:149px;
+	z-index:1000;
+	position:relative;
+}
+      

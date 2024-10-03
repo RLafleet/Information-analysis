@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>
+		2048 Game
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="game.js"></script>
+	<script src="highscore.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="gametitle" style="text-align:center">
+		<h1>
+			2048 Game
+		</h1>
+	</div>
+	<div id="scorediv" align="center">
+		<table id='scoretable'>
+			<tr id='scorerow'>
+				<td class='scoretitle'>
+					<b>Score:</b>
+					<span id="score">0</span>
+				</td>
+				<td class="newgamemid">
+					<a href="">
+						<div id="newgamebtn" href="">
+							<b>New Game</b>
+						</div>
+					</a>
+				</td>
+				<td class="scoretitle" style="text-align:right">
+					<b>Best:</b>
+					<span id="highscore">0</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="game" align="center">
+
+	</div>
+	<div id="cover">
+		<div id="covertext">
+			2048
+		</div>
+	</div>
+
+	<div style="display:none" id="highscores">
+	</div>
+</body>
+</html>
